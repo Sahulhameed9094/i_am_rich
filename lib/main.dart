@@ -3,8 +3,12 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text("I am Rich"),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Center(
+            child: Text("I Am Rich"),
+          ),
+        ),
       ),
     ),
   );
